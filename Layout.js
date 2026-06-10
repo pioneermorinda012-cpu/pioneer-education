@@ -75,6 +75,16 @@ export default function Layout({ children, student }) {
       <main style={{ maxWidth: 900, margin: '0 auto', padding: '24px 20px' }}>
         {children}
       </main>
-    </div>
+    <a href="https://wa.me/91YOURNUMBER" target="_blank"
+  style={{
+    position: 'fixed', bottom: 24, right: 24,
+    background: '#25D366', color: 'white',
+    width: 56, height: 56, borderRadius: '50%',
+    display: 'flex', alignItems: 'center', justifyContent: 'center',
+    fontSize: 28, boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+    zIndex: 999, textDecoration: 'none'
+  }}>
+  💬
+</a></div>
   )
 }
