@@ -22,7 +22,7 @@ export default function Home() {
   const activeLesson = { course: 'IELTS', title: 'Writing Task 1 — Graphs', lesson: 4, total: 48 }
 
   return (
-    <Layout student="Rahul Singh">
+    <Layout student="Pioneer Education Morinda">
 
       {/* Continue banner */}
       <div className="card" style={{
